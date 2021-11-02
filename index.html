@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="utf-8">
@@ -7,7 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>Booking Form HTML Template</title>
+	<title> Система управления для отелей и хостелов
+		Управляйте отелем в АСУ — следите за бронями, номерами и доходом, просматривайте удобные отчеты и работайте с шахматкой везде, где есть интернет.</title>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Cabin:400,700" rel="stylesheet">
@@ -24,7 +25,21 @@
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+	(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+	ym(86237258, "init", {
+		 clickmap:true,
+		 trackLinks:true,
+		 accurateTrackBounce:true,
+		 webvisor:true
+	});
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/86237258" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
 </head>
 
 <body>
@@ -36,18 +51,18 @@
 						<div class="booking-bg"></div>
 						<form>
 							<div class="form-header">
-								<h2>Make your reservation</h2>
+								<h2>Забронировать номер</h2>
 							</div>
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<span class="form-label">Check In</span>
+										<span class="form-label">Заезд</span>
 										<input class="form-control" type="date" required>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<span class="form-label">Check Out</span>
+										<span class="form-label">Выезд</span>
 										<input class="form-control" type="date" required>
 									</div>
 								</div>
@@ -55,7 +70,7 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<span class="form-label">Adults</span>
+										<span class="form-label">Гости</span>
 										<select class="form-control">
 											<option>1</option>
 											<option>2</option>
@@ -66,7 +81,7 @@
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<span class="form-label">Children</span>
+										<span class="form-label">Дети</span>
 										<select class="form-control">
 											<option>0</option>
 											<option>1</option>
@@ -77,15 +92,15 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<span class="form-label">Email</span>
-								<input class="form-control" type="email" placeholder="Enter your email">
+								<span class="form-label">Почта</span>
+								<input class="form-control" type="email" placeholder="Введите ваш email">
 							</div>
 							<div class="form-group">
-								<span class="form-label">Phone</span>
-								<input class="form-control" type="tel" placeholder="Enter your phone number">
+								<span class="form-label">Телефон</span>
+								<input class="form-control" type="tel" placeholder="Введите номер телефона">
 							</div>
 							<div class="form-btn">
-								<button class="submit-btn">Book Now</button>
+								<button class="submit-btn">Забронировать</button>
 							</div>
 						</form>
 					</div>
